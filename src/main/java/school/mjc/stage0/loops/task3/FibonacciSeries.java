@@ -5,6 +5,8 @@ public class FibonacciSeries {
         int f0=1;
         int f1=1;
         int temp=0;
+        System.out.println(f0);
+        System.out.println(f1);
         for(int i=2;i<=lastFibonacci;i++){
             temp=f0+f1;
             f0 = f1;
