@@ -5,7 +5,7 @@ public class NinesSum {
         int sum=0;
         int temp=0;
         for (int i=0;i<=lengthOfLastNumber;i++){
-            temp = Math.pow(10,i);
+            temp = (int) Math.pow(10,i);
             sum += (sum+temp*9);
         }
         System.out.println(sum);
